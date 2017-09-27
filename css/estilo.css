@@ -2,4 +2,33 @@
     font-family: 'Open Sans', sans-serif;
 }
 
+body{
+    width: 1200px;
+    margin: 0 auto; /*deixar centralizado */
+}
 
+
+
+.primeira-sessao{
+    background-color: #9FBFA7;
+}
+
+.segunda-sessao{
+    background-color: #D4FFDF;
+}
+
+.terceira-sessao{
+    background-color: #9FBFA7;
+}
+
+.quarta-sessao{
+    background-color: #D4FFDF;
+}
+
+
+
+/*TELA DE CELULAR, DE TABLETE*/
+@media screen and (max-width:768px) {
+body{
+    width: 100%;
+}
