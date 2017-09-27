@@ -95,3 +95,15 @@ footer{
     /*centralizou os campos cnetralizando em cima e em baixo*/
     align-items: center;
 }
+
+.sessao-email input[type='submit']{
+    transition: all 0.5s ease;
+    border-radius: 7px;
+}
+
+
+.sessao-email input[type='submit']:hover{
+    color: white;
+    background-color: gray;
+    transition: all 0.5s ease;
+}
