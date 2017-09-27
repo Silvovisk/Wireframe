@@ -28,7 +28,7 @@ span{
 }
 
 .celular{
-    width: 300px;
+    width: 250px;
 }
 
 .sessao1{
@@ -106,4 +106,69 @@ footer{
     color: white;
     background-color: gray;
     transition: all 0.5s ease;
+}
+
+
+/*&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&*/
+
+@media screen and (max-width:768px) {
+    *{
+        margin-left: 5px;
+        margin-right: 5px;
+    }   
+
+    body{
+        width: 100%;
+    }
+
+    h1{
+        font-size: 25px; 
+    }
+    h2{
+        font-size: 20px;
+    }
+    
+    .sessao1{
+        display: block;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .sessao2-logo{
+        display: flex;
+        margin: 0 auto;
+        width: 80%;
+    }
+
+    .sessao2-blocos{
+        display: block;  
+    }
+
+
+    .segunda-sessao p{
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+    /*.sessao3{
+        display: block;
+    }*/
+    .sessao3 img{
+        width: 150px;
+    }
+    
+
+
+    footer img{
+        padding-top: 15px; 
+        width: 50%;
+        /*justify-content: space-between; space-around;*/   
+    }
+
+    footer{
+        display: block;
+        text-align: center;
+        
+        
+    }
+
 }
