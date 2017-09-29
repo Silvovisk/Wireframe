@@ -106,6 +106,9 @@ footer{
 
     font-size: small;
     margin-bottom: 2%;
+
+    margin-right: 3%;
+    margin-left: 3%;
 }
 
 
@@ -183,9 +186,7 @@ footer{
 
     footer{
         display: block;
-        text-align: center;
-        
-        
+        text-align: center;    
     }
 
 }
