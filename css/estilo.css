@@ -73,6 +73,15 @@ section{
     display: flex;  
 }
 
+.segunda-sessao p{
+    text-align: justify;
+}
+
+.paragrafo{
+    margin: 2%;
+    margin-bottom: 0%;
+}
+
 .bloco{
     margin: 40px;
 }
@@ -93,8 +102,13 @@ footer{
     /*colocou os itens nos cantos*/
     justify-content: space-between; 
     /*centralizou os campos cnetralizando em cima e em baixo*/
-    align-items: center;
+    align-items: center;   
+
+    font-size: small;
+    margin-bottom: 2%;
 }
+
+
 
 .sessao-email input[type='submit']{
     transition: all 0.5s ease;
@@ -109,17 +123,19 @@ footer{
 }
 
 
-/*&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&*/
+/*&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&*/
+
+@media screen and (max-width:1024px) {
+    body{
+        width: 100%;
+    }
+}
 
 @media screen and (max-width:768px) {
     *{
         margin-left: 5px;
         margin-right: 5px;
     }   
-
-    body{
-        width: 100%;
-    }
 
     h1{
         font-size: 25px; 
@@ -149,6 +165,7 @@ footer{
         margin-left: 10px;
         margin-right: 10px;
     }
+
     /*.sessao3{
         display: block;
     }*/
